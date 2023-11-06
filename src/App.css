@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .App-logo {
@@ -23,7 +25,49 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.App-body {
+  min-height: 964px;
+}
 
+.App-body-container {
+  min-height: 486px;
+  border: 1px;
+  border-radius: 8px;
+  padding: 24px 16px 24px 16px;
+  gap: 32px;
+  border-color: #E0E0E0;
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  /* justify-items: center; */
+  align-items: center;
+}
+
+.knowledge-card{
+  min-height: 164px;
+  border-radius: 20px;
+  padding: 16px;
+  gap: 8px;
+  border: 2px solid #005587;
+  background: 
+              linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-width: 210.33px;
+}
+
+.App-footer {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  color: #063574;
+  background-color: #0E336A14;
+  height: 52px;
+  /* text-align: center; */
+  /* margin-top: 0; */
+}
 .App-link {
   color: #61dafb;
 }
